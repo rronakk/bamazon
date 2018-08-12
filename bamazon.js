@@ -5,7 +5,6 @@ var Table = require('cli-table');
 var figlet = require('figlet');
 
 
-
 var connection = mysql.createConnection({
   host: process.env.DB_HOST,
 
@@ -116,3 +115,4 @@ function processOrder(productId, quantity){
     });
     connection.end();
 }
+

@@ -46,4 +46,6 @@ VALUES ("Amazon kindle", "e-reader", 59.99, 40);
 SELECT * FROM PRODUCTS;
 
 SELECT stock_quantity FROM `products` WHERE id = 1;
-UPDATE `products` SET stock_quantity = 10 WHERE id = 1;
+UPDATE `products` SET stock_quantity =  stock_quantity + 10 WHERE id = 1;
+
+SELECT * FROM `products` WHERE stock_quantity < 5;
