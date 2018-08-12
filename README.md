@@ -30,6 +30,6 @@ This is Super light weight store, you can interact with it using your command li
  
 ``` node bamazon.js```
 
-##### AS Store Manager :
+##### As Store Manager :
 
 ```node bamazaonManager.js```
